@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "tokenId_",
+						"type": "uint256"
+					}
+				],
+				"name": "setTokenURI",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/URIStorage.sol": "URIStorage"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/URIStorage.sol": {
+			"keccak256": "0xda7baa027f5c0ba78a955e37241dc6977c9d7dae30c20b32653946c7e32d872b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f4a8a5da97b0a911d6d257a87b36d2b9d59da8b96bbc50d250008a0ba43be24e",
+				"dweb:/ipfs/QmS5haQ8f4o5fs2hPdVtL6LakUwQLAHTs6MFXpjsoktfQc"
+			]
+		}
+	},
+	"version": 1
+}

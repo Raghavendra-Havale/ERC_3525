@@ -1,0 +1,230 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "InvalidInitialization",
+				"type": "error"
+			},
+			{
+				"inputs": [],
+				"name": "NotInitializing",
+				"type": "error"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint64",
+						"name": "version",
+						"type": "uint64"
+					}
+				],
+				"name": "Initialized",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "constructContractURI",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "slot_",
+						"type": "uint256"
+					}
+				],
+				"name": "constructSlotURI",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "tokenId_",
+						"type": "uint256"
+					}
+				],
+				"name": "constructTokenURI",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"errors": {
+				"InvalidInitialization()": [
+					{
+						"details": "The contract is already initialized."
+					}
+				],
+				"NotInitializing()": [
+					{
+						"details": "The contract is not initializing."
+					}
+				]
+			},
+			"events": {
+				"Initialized(uint64)": {
+					"details": "Triggered when the contract has been initialized or reinitialized."
+				}
+			},
+			"kind": "dev",
+			"methods": {},
+			"stateVariables": {
+				"__gap": {
+					"details": "This empty reserved space is put in place to allow future versions to add new variables without shifting down storage in the inheritance chain. See https://docs.openzeppelin.com/contracts/4.x/upgradeable#storage_gaps"
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/periphery/ERC3525MetadataDescriptorUpgradeable.sol": "ERC3525MetadataDescriptorUpgradeable"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 100
+		},
+		"remappings": []
+	},
+	"sources": {
+		"@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol": {
+			"keccak256": "0x631188737069917d2f909d29ce62c4d48611d326686ba6683e26b72a23bfac0b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7a61054ae84cd6c4d04c0c4450ba1d6de41e27e0a2c4f1bcdf58f796b401c609",
+				"dweb:/ipfs/QmUvtdp7X1mRVyC3CsHrtPbgoqWaXHp3S1ZR24tpAQYJWM"
+			]
+		},
+		"@openzeppelin/contracts/utils/Base64.sol": {
+			"keccak256": "0x6f7014d688c4386c26e8c02371ecb7f7740d2542f1ecadffd5a3084511e2a344",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://81d8f5aabdb088f19c80ce460a2e670ecc651ff4ca46878d239e29bfe705e52c",
+				"dweb:/ipfs/QmUveDGa7vEtYBxbVUajNcDvyjP6oaD7Va1M5qwZbudmAn"
+			]
+		},
+		"@openzeppelin/contracts/utils/Strings.sol": {
+			"keccak256": "0x55f102ea785d8399c0e58d1108e2d289506dde18abc6db1b7f68c1f9f9bc5792",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6e52e0a7765c943ef14e5bcf11e46e6139fa044be564881378349236bf2e3453",
+				"dweb:/ipfs/QmZEeeXoFPW47amyP35gfzomF9DixqqTEPwzBakv6cZw6i"
+			]
+		},
+		"@openzeppelin/contracts/utils/introspection/IERC165.sol": {
+			"keccak256": "0x4296879f55019b23e135000eb36896057e7101fb7fb859c5ef690cf14643757b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://87b3541437c8c443ccd36795e56a338ed12855eec17f8da624511b8d1a7e14df",
+				"dweb:/ipfs/QmeJQCtZrQjtJLr6u7ZHWeH3pBnjtLWzvRrKViAi7UZqxL"
+			]
+		},
+		"@openzeppelin/contracts/utils/math/Math.sol": {
+			"keccak256": "0x005ec64c6313f0555d59e278f9a7a5ab2db5bdc72a027f255a37c327af1ec02d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4ece9f0b9c8daca08c76b6b5405a6446b6f73b3a15fab7ff56e296cbd4a2c875",
+				"dweb:/ipfs/QmQyRpyPRL5SQuAgj6SHmbir3foX65FJjbVTTQrA2EFg6L"
+			]
+		},
+		"@openzeppelin/contracts/utils/math/SignedMath.sol": {
+			"keccak256": "0x5f7e4076e175393767754387c962926577f1660dd9b810187b9002407656be72",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7d533a1c97cd43a57cd9c465f7ee8dd0e39ae93a8fb8ff8e5303a356b081cdcc",
+				"dweb:/ipfs/QmVBEei6aTnvYNZp2CHYVNKyZS4q1KkjANfY39WVXZXVoT"
+			]
+		},
+		"contracts/IERC3525Upgradeable.sol": {
+			"keccak256": "0x6735117e768e23449716c0731a3d9b6ce272a3baab429a550efddadc92bb32cd",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://905eb0442bb6d2effe9999ebe555d8c645a1203aef734387d9ad3c8a78866573",
+				"dweb:/ipfs/QmaP28QdxdfjwoyCSpD366TyZMcivKJn4xgpgS9Kwj9Suv"
+			]
+		},
+		"contracts/IERC721Upgradeable.sol": {
+			"keccak256": "0x01c55b4cb358f8b123a28de104ae771d27d40514d6c1ea0bb0fc256f805195e3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://eab4dfd72e1d1e5cf4f2823f877335a8c7a3a7a6e20d9261b8970a947893dbb1",
+				"dweb:/ipfs/QmPStyDfyF6WzftUAdqpk82iAMQ75RSaZzWU4tt8qf736i"
+			]
+		},
+		"contracts/extensions/IERC3525MetadataUpgradeable.sol": {
+			"keccak256": "0x9ba530840b3eb25b4175cf8423c0cfe8d2da75d8c4dc88ecf85204a8940d047e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://94e61fa49eda2bf457ad69f6fca4ab70cbbac78c7df35b50c705333b0e90368a",
+				"dweb:/ipfs/QmQhvs1NkY3oMGx2WCmTkCR1ZtzpKYKeEZirhLWrKAEXkx"
+			]
+		},
+		"contracts/extensions/IERC721MetadataUpgradeable.sol": {
+			"keccak256": "0x94599f6f4e0106919c549625cf71353ea433cf47837ecbc33ce57a81d5c65b92",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://66ab447a9cd0241771098ee3363755b8ceb29ba45e2593ba054c871a342aef44",
+				"dweb:/ipfs/QmPx5tH4E3MM6K52ANV1s8zF5xbBgtok5F43uybc5BS9GF"
+			]
+		},
+		"contracts/periphery/ERC3525MetadataDescriptorUpgradeable.sol": {
+			"keccak256": "0x20efdb03e745b622fefeafbe9005b9139331b741352e548a5217deacc6a59658",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8c19ba90774d9a4a9e0e162e2b72ab84550aadaa2606cb4ea2fe3196252d98a7",
+				"dweb:/ipfs/QmfF56aWkwSHJKhzpb1HherTesa482fVfHc6DGuDrKZQRe"
+			]
+		},
+		"contracts/periphery/interface/IERC3525MetadataDescriptorUpgradeable.sol": {
+			"keccak256": "0xa40c93b0968840218c1febb1d73c1fc6cfa5f40786f1c4e3115674f997733089",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9bfbb5541c22bce8a4312eb8fd6488afd6d2c281e29b4dd39e9417214caabe30",
+				"dweb:/ipfs/QmetZ6ioQ68taJrQ89GJTbctMZRCFJtZ5m7tBAZ5556GvZ"
+			]
+		}
+	},
+	"version": 1
+}
